@@ -21,7 +21,7 @@ body {
   background-color: black;
   color: white;
   font-weight: bold;
-  font-size: clamp(24px, 15vw, 100px); /* масштабируемый, но с границами */
+  font-size: clamp(24px, 12vw, 100px); /* масштабируемый, но с границами */
   text-align: center;
   margin: 0;
   padding: 0;
