@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import s from './Countdown.module.css'
 
 export const Countdown = () => {
-    const targetDate = "2025-07-06T16:15:00"
+    const targetDate = "2025-08-15T18:00:00"
     const calculateTimeLeft = () => {
         const difference = +new Date(targetDate) - +new Date();
         if (difference <= 0) return null;
