@@ -28,7 +28,7 @@ export const Countdown = () => {
         return () => clearInterval(timer);
     }, [targetDate]);
 
-    if (!timeLeft) return <div>Время вышло!</div>;
+    if (!timeLeft) return <div>Морис свободна!</div>;
 
     return (
         <div className={s.countdown}>
